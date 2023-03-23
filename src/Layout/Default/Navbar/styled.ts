@@ -10,6 +10,10 @@ export const AppBar = styled(MaterialAppBar)({
   position: "fixed",
   padding: "0 100px",
   height: 75,
+
+  "& .isax-shopping-cart":{
+    color: "#fff"
+  }
 });
 
 export const Toolbar = styled(MaterialToolbar)({

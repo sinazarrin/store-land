@@ -1,13 +1,11 @@
-import React from "react";
-import "./App.css";
-import { IconButton, ThemeProvider } from "@mui/material";
+import { ThemeProvider } from "@mui/material";
+
 import theme from "./Utils/theme";
-import Navbar from "./Layout/Default/Navbar/Navbar";
+import './Assets/styles/index.css'
 
 function App() {
   return (
     <ThemeProvider theme={theme()}>
-      <Navbar></Navbar>
     </ThemeProvider>
   );
 }
