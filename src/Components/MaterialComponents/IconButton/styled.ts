@@ -5,7 +5,7 @@ export const IconButton = styled(MuiIconButton)(({ theme }) => ({
   background: "#FFFFFF",
   border: "1.5px solid #D4DAE7",
   borderRadius: 30,
-  padding: 12,
+  padding: 18,
   transition: ".2s",
 
   "&:hover": {
