@@ -25,4 +25,5 @@ export const Toolbar = styled(MaterialToolbar)({
 export const LogoText = styled(Typography)({
   cursor: "pointer",
   fontSize: "38px",
+  fontFamily: "Yekan Bakh"
 });
