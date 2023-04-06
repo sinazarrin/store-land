@@ -22,8 +22,13 @@ export const Toolbar = styled(MaterialToolbar)({
   alignItems: "center",
 });
 
-export const LogoText = styled(Typography)({
+export const LogoText = styled("h1")<any>(({theme,color}) => ({
   cursor: "pointer",
   fontSize: "38px",
-  fontFamily: "Yekan Bakh"
-});
+  fontFamily: "Yekan Bakh",
+
+  // color: theme.palette.mode === "dark" ? "red" : "pink",
+  //  [theme.breakpoints.up("sm")]:{
+  //   color:"pink",
+  //  },
+}));

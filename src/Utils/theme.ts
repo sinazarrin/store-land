@@ -5,7 +5,7 @@ const theme = () =>
     direction: "rtl",
     palette: {
       primary: {
-        main: "#1A5CFF",
+        main: "#1A5CFF" ,
       },
       secondary: {
         main: "#DDE7FF",

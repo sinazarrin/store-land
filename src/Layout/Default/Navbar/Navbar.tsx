@@ -1,12 +1,12 @@
 import { IconButton } from "@mui/material";
 import * as Styled from './styled'
 
-
-const GlassmorphismNavbar = () => {
+const Navbar = () => {
   return (
-    <Styled.AppBar position="fixed" elevation={0}>
+
+    <Styled.AppBar elevation={0}>
       <Styled.Toolbar>
-        <Styled.LogoText variant="h1">استورلــــند</Styled.LogoText>
+        <Styled.LogoText color={`${Math.random() > .5 ? "red" : "blue"}`}>استورلــــند</Styled.LogoText>
         <div>
           <IconButton size="large">
             <i className="isax isax-shopping-cart"></i>
@@ -14,7 +14,9 @@ const GlassmorphismNavbar = () => {
         </div>
       </Styled.Toolbar>
     </Styled.AppBar>
+    
+    
   );
 };
 
-export default GlassmorphismNavbar;
+export default Navbar;
