@@ -13,7 +13,7 @@ interface Product {
 
 export const fetchProducts = async (): Promise<Product[]> => {
   try {
-    const { data }: AxiosResponse<Product[]> = await axios.get('Products/product_data.json');
+    const { data }: AxiosResponse<Product[]> = await axios.get('assets/Products/product_data.json');
 
     const products = data;
 
