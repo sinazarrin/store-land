@@ -3,6 +3,7 @@ import { ThemeProvider } from "@mui/material";
 import theme from "./Utils/theme";
 import './Assets/styles/index.css'
 import { fetchProducts } from './Api/ProductService';
+import ProductPage from './Pages/ProductPage';
 
 function App() {
   useEffect(() => {
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme()}>
-
+      <ProductPage/>
     </ThemeProvider>
   );
 }
