@@ -6,6 +6,7 @@ export const Container = styled("div")({
     marginTop: 15,
     "&>div":{
         display: "flex",
+        width: 1250,
         justifyContent: "space-between",
         margin: "20px 0px",
     }
