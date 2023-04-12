@@ -8,7 +8,7 @@ import Button from '../../../Components/MaterialComponents/Button'
 const ProductCard = () => {
     return (
         <Styled.CardContainer>
-            <Grid spacing={2}>
+            <Grid>
                 <h1>محصولات</h1>
                 <Grid>
                     <Styled.ProductCard >
