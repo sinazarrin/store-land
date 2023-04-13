@@ -1,8 +1,8 @@
 
 import { Grid } from '@mui/material'
 import * as Styled from "./styled"
-import FilterButtons from './ButtonsFilter'
-import SearchFilter from './SearchFilter'
+import FilterButtons from './Components/ButtonsFilter'
+import SearchFilter from './Components/SearchFilter'
 
 const Filters = () => {
   return (

@@ -1,10 +1,7 @@
-import {useEffect,useState} from 'react'
 import { IconButton } from "@mui/material";
 import * as Styled from './styled'
 
-const Navbar = () => {
-  const [changeColor, setChangeColor] = useState("white")
-  
+const Navbar = () => {    
   return (
     <Styled.AppBar elevation={0} >
       <Styled.Toolbar>
@@ -16,9 +13,7 @@ const Navbar = () => {
         </div>
       </Styled.Toolbar>
     </Styled.AppBar>
-    
-    
   );
-};
-
+};  
+    
 export default Navbar;

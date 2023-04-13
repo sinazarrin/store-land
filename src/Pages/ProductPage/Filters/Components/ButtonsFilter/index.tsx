@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import * as Styled from './styled'
-import Button from '../../../../Components/MaterialComponents/Button'
+import Button from '../../../../../Components/MaterialComponents/Button'
 
 const ButtonsFilter = () => {
     const [first] = useState(["هودی", "کلاه", "شلوار", "تیشرت", "کفش", "بوت"])
