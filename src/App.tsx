@@ -4,6 +4,9 @@ import theme from "./Utils/theme";
 import './Assets/styles/index.css'
 import { fetchProducts } from './Api/ProductService';
 import ProductPage from './Pages/ProductPage';
+import Navbar from './Layout/Default/Navbar/Navbar';
+import Footer from './Layout/Default/Footer';
+import CartPage from './Pages/CartPage';
 
 function App() {
   useEffect(() => {
@@ -16,7 +19,9 @@ function App() {
 
   return (
     <ThemeProvider theme={theme()}>
-      <ProductPage/>
+      <Navbar/>
+      <CartPage/>
+      <Footer/>
     </ThemeProvider>
   );
 }
