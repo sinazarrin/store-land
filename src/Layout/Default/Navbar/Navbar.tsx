@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <Styled.AppBar elevation={0} >
       <Styled.Toolbar>
-        <Styled.LogoText xs={{color: "red"}}>استورلــــند</Styled.LogoText>
+        <Styled.LogoText>استورلــــند</Styled.LogoText>
         <div>
           <IconButton size="large">
             <i className="isax isax-shopping-cart"></i>

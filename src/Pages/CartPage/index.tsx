@@ -1,11 +1,12 @@
-import { Grid } from '@mui/material'
-import React from 'react'
+
+import CartItems from './Components/CartItems'
+import * as Styled from './styled'
 
 const CartPage = () => {
   return (
-    <Grid>
-        Cart Page
-    </Grid>
+    <Styled.CartPageContainer> 
+        <CartItems/>
+    </Styled.CartPageContainer>
   )
 }
 
