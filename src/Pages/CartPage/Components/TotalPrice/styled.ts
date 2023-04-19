@@ -4,6 +4,7 @@ export const TotalPriceContainer = styled(Grid)({
     display: 'flex',
     flexDirection: 'column',
     width: 300,
+    height: 300,
     border: '1px solid rgba(0, 0, 0, 0.12)',
     padding: 35,
     borderRadius: 15,

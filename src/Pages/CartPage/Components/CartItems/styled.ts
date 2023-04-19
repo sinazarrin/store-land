@@ -1,6 +1,10 @@
 import { Grid, styled } from '@mui/material'
 
 export const CartItemsContainer = styled(Grid)({
+    border: '1px solid rgba(0, 0, 0, 0.12)',
+    padding: '0 35px 35px 35px',
+    borderRadius: 15,
+    margin: 0,
     "&>hr":{
         width: '80%'
     }
