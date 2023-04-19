@@ -1,18 +1,20 @@
 import { Grid, styled } from '@mui/material'
 
 export const CartItemsContainer = styled(Grid)({
-    marginTop: 95,
     "&>hr":{
-        width: '100%'
+        width: '80%'
     }
 })
 
 export const CartItemsContent = styled(Grid)({
     display: 'flex',
-    padding: 15,
+    flexWrap:'wrap',
+    padding: '0 15px 0 0',
     borderRadius: 16,
     alignItems:'center',
-    
+    "&>hr":{
+        width: '100%'
+    },
     "&>div>img":{
         width: '110px',
         borderRadius: '8px',

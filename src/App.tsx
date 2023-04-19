@@ -21,7 +21,7 @@ function App() {
     <ThemeProvider theme={theme()}>
       <Navbar/>
       <CartPage/>
-      <Footer/>
+      {/* <Footer/> */}
     </ThemeProvider>
   );
 }

@@ -1,6 +1,7 @@
 import { Grid, styled } from '@mui/material'
 
 export const CartPageContainer = styled(Grid)({
-    height: '100vh',
-    
+    display: 'flex',
+    padding: 0,
+    justifyContent: 'space-around',
 })
