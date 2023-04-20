@@ -30,7 +30,7 @@ export const ProductCard = styled(Card)({
     width: 311,
     height: 431,
     border: "1px solid #ebebeb",
-    padding: "30px 18px 22px",
+    padding: '18px 18px 22px',
     margin: "20px 40px",
     "&>a": {
         height: 200,

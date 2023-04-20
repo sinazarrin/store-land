@@ -12,6 +12,7 @@ export const CartItemsContainer = styled(Grid)({
 
 export const CartItemsContent = styled(Grid)({
     display: 'flex',
+    justifyContent: 'space-between',
     flexWrap:'wrap',
     padding: '0 15px 0 0',
     borderRadius: 16,
