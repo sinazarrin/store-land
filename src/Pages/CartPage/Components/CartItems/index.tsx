@@ -6,7 +6,6 @@ const CartItems = () => {
 
     return (
         <Styled.CartItemsContainer container spacing={2} xs={7}>
-
             <Styled.CartItemsContent item gap={5} xs={12}>
                 <Grid xs={2}>
                     <img src="./assets/images/joran-quinten-vtiYZsVmC2A-unsplash.jpg" alt="" />
