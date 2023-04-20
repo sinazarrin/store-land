@@ -2,7 +2,6 @@ import React from 'react'
 import { Card } from '../../../Components/MaterialComponents/Card/styled'
 import * as Styled from './styled'
 import { Grid, Typography } from '@mui/material'
-import { Link } from 'react-router-dom'
 import Button from '../../../Components/MaterialComponents/Button'
 
 const ProductCard = () => {
