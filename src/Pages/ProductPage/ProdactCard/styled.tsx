@@ -4,10 +4,8 @@ import Card from "../../../Components/MaterialComponents/Card";
 export const CardContainer = styled(Grid)({
     display: 'flex',
     justifyContent: "center",
-    height: "100vh",
-    marginTop: "5em",
+    margin: "5em auto 100px auto",
     maxWidth: "1250px",
-    margin: " 30px auto",
     "&>div": {
         display: "flex",
         flexDirection: "column",
@@ -22,7 +20,7 @@ export const CardContainer = styled(Grid)({
     }
 })
 
-export const ProductCard = styled(Card)({
+export const ProductCard = styled(Card)(({ theme }) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -32,6 +30,9 @@ export const ProductCard = styled(Card)({
     border: "1px solid #ebebeb",
     padding: '18px 18px 22px',
     margin: "20px 40px",
+    [theme.breakpoints.down('sm')]: {
+        margin: "20px 0",
+    },
     "&>a": {
         height: 200,
         display: "flex",
@@ -42,29 +43,29 @@ export const ProductCard = styled(Card)({
         maxHeight: "100%",
         borderRadius: 15
     }
-})
+}))
 
 export const CartContent = styled("div")({
     display: 'flex',
     flexDirection: 'column',
-    "&>div":{
+    "&>div": {
         marginTop: 15,
         display: 'flex',
     },
-    "&>div>a":{
+    "&>div>a": {
         fontSize: 12,
         textAlign: 'center',
         cursor: 'pointer'
     },
-    "&>div>p":{
+    "&>div>p": {
         fontSize: 14,
         fontWeight: '500',
     },
-    "&>div>span":{
+    "&>div>span": {
         fontWeight: "500",
         fontSize: 18
     },
-    "&>div>button":{
+    "&>div>button": {
         fontSize: 16,
         padding: "8px 15px"
     },
