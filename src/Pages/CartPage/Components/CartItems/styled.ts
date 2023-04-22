@@ -5,8 +5,10 @@ export const CartItemsContainer = styled(Grid)({
     padding: '0 35px 35px 35px',
     borderRadius: 15,
     margin: 0,
+    boxShadow: '0px 2px 8px 0px rgba(99, 99, 99, 0.2)',
+    backgroundColor: '#fff',
     "&>hr":{
-        width: '80%'
+        width: '100%'
     }
 })
 
@@ -17,9 +19,7 @@ export const CartItemsContent = styled(Grid)({
     padding: '0 15px 0 0',
     borderRadius: 16,
     alignItems:'center',
-    "&>hr":{
-        width: '100%'
-    },
+    
     "&>div>img":{
         width: '110px',
         borderRadius: '8px',

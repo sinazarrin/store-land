@@ -1,9 +1,7 @@
 import { Grid, styled } from '@mui/material'
 
-
-
-export const CartPageContainer = styled(Grid)({
-    height: '100vh',
+export const CartPageContainer = styled(Grid)(({theme}) => ({
+    marginBottom:400,
     '&>h1':{
         marginRight: 80,
     },
@@ -11,5 +9,8 @@ export const CartPageContainer = styled(Grid)({
         display: 'flex',
         padding: 0,
         justifyContent: 'center',
-    }
-})
+        [theme.breakpoints.down('md')]:{
+            flexDirection: 'column'
+        }
+    },
+}))
