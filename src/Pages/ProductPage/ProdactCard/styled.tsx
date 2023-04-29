@@ -48,6 +48,7 @@ export const ProductCard = styled(Card)(({ theme }) => ({
 export const CartContent = styled("div")({
     display: 'flex',
     flexDirection: 'column',
+    width: '90%',
     "&>div": {
         marginTop: 15,
         display: 'flex',
