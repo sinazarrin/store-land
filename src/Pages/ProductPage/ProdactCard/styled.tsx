@@ -54,9 +54,10 @@ export const CartContent = styled("div")({
         display: 'flex',
     },
     "&>div>a": {
-        fontSize: 12,
+        fontSize: 15,
         textAlign: 'center',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        width: '100%'
     },
     "&>div>p": {
         fontSize: 14,
